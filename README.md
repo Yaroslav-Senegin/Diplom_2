@@ -34,6 +34,10 @@ pip3 install -r requirements.txt
 ```
 * Запустить все тесты из директории tests
 ```shell
+pytest \tests -v
+```
+* Запустить все тесты из директории tests с созданием отчета в allure
+```shell
 pytest tests --alluredir=allure_results
 ```
 * Посмотреть отчет в веб версии пройденного прогона
